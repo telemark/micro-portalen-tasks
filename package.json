@@ -1,0 +1,51 @@
+{
+  "name": "micro-portalen-tasks",
+  "description": "Mapping of roles for portalen",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=7.9.0"
+  },
+  "scripts": {
+    "test": "standard && nsp check && ava",
+    "test-offline": "standard && ava",
+    "coverage": "nyc ava",
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
+    "standard-fix": "standard --fix",
+    "start": "micro"
+  },
+  "keywords": [
+    "microservice",
+    "micro",
+    "tasks",
+    "portalen",
+    "Telemark fylkeskommune"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/telemark/micro-portalen-tasks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/telemark/micro-portalen-tasks/issues"
+  },
+  "homepage": "https://github.com/telemark/micro-portalen-tasks",
+  "devDependencies": {
+    "coveralls": "2.13.0",
+    "ava": "0.19.1",
+    "nsp": "2.6.3",
+    "nyc": "10.2.0",
+    "standard": "10.0.0",
+    "test-listen": "1.0.1"
+  },
+  "dependencies": {
+    "marked": "0.3.6",
+    "micro": "7.3.1"
+  }
+}
