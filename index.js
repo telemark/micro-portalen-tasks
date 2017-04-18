@@ -4,6 +4,7 @@ const readFileSync = require('fs').readFileSync
 const marked = require('marked')
 const { parse } = require('url')
 const { json, send } = require('micro')
+const getTasks = require('./lib/get-tasks')
 
 module.exports = async (request, response) => {
   const {pathname, query} = await parse(request.url, true)
@@ -18,6 +19,9 @@ module.exports = async (request, response) => {
   }
   if (request.method === 'OPTIONS') {
     response.end()
+  } else if (/user/.test(pathname)) {
+    const result = await getTasks(request)
+    send(response, 200, result)
   } else {
     const readme = readFileSync('./README.md', 'utf-8')
     const html = marked(readme)

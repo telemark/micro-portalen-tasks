@@ -38,7 +38,6 @@
   "homepage": "https://github.com/telemark/micro-portalen-tasks",
   "devDependencies": {
     "ava": "0.19.1",
-    "axios": "0.16.1",
     "coveralls": "2.13.0",
     "nsp": "2.6.3",
     "nyc": "10.2.0",
@@ -46,7 +45,10 @@
     "test-listen": "1.0.2"
   },
   "dependencies": {
+    "axios": "0.16.1",
     "marked": "0.3.6",
-    "micro": "7.3.2"
+    "micro": "7.3.2",
+    "normalize-html-whitespace": "0.2.0",
+    "x-ray": "2.3.2"
   }
 }
