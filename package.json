@@ -1,7 +1,7 @@
 {
   "name": "micro-portalen-tasks",
   "description": "Mapping of roles for portalen",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "license": "MIT",
   "private": true,
   "author": {
@@ -39,7 +39,7 @@
   "devDependencies": {
     "ava": "0.21.0",
     "coveralls": "2.13.1",
-    "nsp": "2.7.0",
+    "nsp": "2.6.3",
     "nyc": "11.1.0",
     "standard": "10.0.1",
     "test-listen": "1.0.2"
