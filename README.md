@@ -6,6 +6,29 @@
 
 Collect tasks for user
 
+## Example
+```json
+{
+  "user": "user1",
+  "visma": [
+    {
+      "systemid": "visma",
+      "title": "Timelister til behandling",
+      "url": "http://localhost:8200/hrm/organisasjon/blah/ORGANIZATION_TASKS_NODE/TIMESHEET",
+      "number": "2",
+      "timestamp": 1507202852168
+    },
+    {
+      "systemid": "visma",
+      "title": "Varsel ansatt",
+      "url": "http://localhost:8200/hrm/organisasjon/blah/ORGANIZATION_TASKS_NODE/ALERT",
+      "number": "4",
+      "timestamp": 1507202852168
+    }
+  ]
+}
+```
+
 ## License
 
 [MIT](LICENSE)
