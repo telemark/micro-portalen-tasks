@@ -8,7 +8,7 @@ module.exports = {
   visma: {
     url: process.env.VISMA_URL || 'http://localhost:8290/hrm_ws/secure/tasks/username/',
     username: process.env.VISMA_USERNAME || 'username',
-    password: process.env.COMPILO_PASSWORD || 'password'
+    password: process.env.VISMA_PASSWORD || 'password'
   },
   PAPERTRAIL_HOSTNAME: process.env.PAPERTRAIL_HOSTNAME || 'micro-portalen-tasks',
   PAPERTRAIL_HOST: process.env.PAPERTRAIL_HOST || 'logs.papertrailapp.com',
