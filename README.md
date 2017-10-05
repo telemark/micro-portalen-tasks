@@ -10,20 +10,32 @@ Collect tasks for user
 ```json
 {
   "user": "user1",
-  "visma": [
+  "data": [
     {
       "systemid": "visma",
       "title": "Timelister til behandling",
-      "url": "http://localhost:8200/hrm/organisasjon/blah/ORGANIZATION_TASKS_NODE/TIMESHEET",
-      "number": "2",
-      "timestamp": 1507202852168
+      "url": "http://tfk-fh-visma01:8200/hrm/organisasjon/blah/ORGANIZATION_TASKS_NODE/TIMESHEET",
+      "number": "1",
+      "timestamp": 1507229802606
     },
     {
       "systemid": "visma",
       "title": "Varsel ansatt",
-      "url": "http://localhost:8200/hrm/organisasjon/blah/ORGANIZATION_TASKS_NODE/ALERT",
+      "url": "http://tfk-fh-visma01:8200/hrm/organisasjon/blah/ORGANIZATION_TASKS_NODE/ALERT",
       "number": "4",
-      "timestamp": 1507202852168
+      "timestamp": 1507229802606
+    },
+    {
+      "systemid": "compilo",
+      "title": "Dokumenter til revisjon (33)",
+      "url": "http://klos.no/system.php",
+      "timestamp": 1507229803205
+    },
+    {
+      "systemid": "compilo",
+      "title": "Revisjonsansvar (65)",
+      "url": "http://klos.no/",
+      "timestamp": 1507229803205
     }
   ]
 }
