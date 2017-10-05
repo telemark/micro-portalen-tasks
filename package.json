@@ -50,6 +50,7 @@
     "axios": "0.16.2",
     "markdown-it": "8.4.0",
     "micro": "9.0.0",
+    "micro-jwt-auth": "1.9.0",
     "microrouter": "2.2.3",
     "node-cache": "4.1.1",
     "normalize-html-whitespace": "0.2.0",
