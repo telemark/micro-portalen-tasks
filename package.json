@@ -19,7 +19,8 @@
     "coverage": "nyc ava",
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
     "standard-fix": "standard --fix",
-    "start": "micro"
+    "start": "micro",
+    "dev": "micro-dev -H localhost"
   },
   "keywords": [
     "microservice",
@@ -39,14 +40,15 @@
   "devDependencies": {
     "ava": "0.22.0",
     "coveralls": "3.0.0",
+    "micro-dev": "1.2.3",
     "nsp": "2.8.1",
-    "nyc": "11.1.0",
+    "nyc": "11.2.1",
     "standard": "10.0.3",
     "test-listen": "1.0.2"
   },
   "dependencies": {
     "axios": "0.16.2",
-    "marked": "0.3.6",
+    "markdown-it": "8.4.0",
     "micro": "9.0.0",
     "normalize-html-whitespace": "0.2.0",
     "x-ray": "2.3.2"
