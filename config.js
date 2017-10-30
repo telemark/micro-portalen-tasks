@@ -1,5 +1,6 @@
 module.exports = {
   JWT_SECRET: process.env.JWT_SECRET || 'Louie Louie, oh no, I got to go Louie Louie, oh no, I got to go',
+  CACHE: process.env.CACHE === 'true',
   compilo: {
     url: process.env.COMPILO_URL || 'https://feed.klos.no',
     username: process.env.COMPILO_USERNAME || 'x1',
