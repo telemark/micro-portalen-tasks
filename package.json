@@ -1,7 +1,7 @@
 {
   "name": "micro-portalen-tasks",
   "description": "Mapping of roles for portalen",
-  "version": "1.0.22",
+  "version": "1.1.0",
   "license": "MIT",
   "private": true,
   "author": {
@@ -11,7 +11,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=7.9.0"
+    "node": ">=8.9.1"
   },
   "scripts": {
     "test": "standard && nsp check && ava",
@@ -36,7 +36,7 @@
   "bugs": {
     "url": "https://github.com/telemark/micro-portalen-tasks/issues"
   },
-  "homepage": "https://github.com/telemark/micro-portalen-tasks",
+  "homepage": "https://github.com/telemark/micro-portalen-tasks#readme",
   "devDependencies": {
     "ava": "0.23.0",
     "coveralls": "3.0.0",
