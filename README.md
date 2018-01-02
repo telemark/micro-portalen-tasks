@@ -24,18 +24,6 @@ Collect tasks for user
       "url": "http://tfk-fh-visma01:8200/hrm/organisasjon/blah/ORGANIZATION_TASKS_NODE/ALERT",
       "number": "4",
       "timestamp": 1507229802606
-    },
-    {
-      "systemid": "compilo",
-      "title": "Dokumenter til revisjon (33)",
-      "url": "http://klos.no/system.php",
-      "timestamp": 1507229803205
-    },
-    {
-      "systemid": "compilo",
-      "title": "Revisjonsansvar (65)",
-      "url": "http://klos.no/",
-      "timestamp": 1507229803205
     }
   ]
 }
