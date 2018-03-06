@@ -52,7 +52,7 @@
     "micro": "9.1.0",
     "micro-cors": "0.1.0",
     "micro-jwt-auth": "1.9.0",
-    "microrouter": "3.0.0",
+    "microrouter": "3.1.1",
     "node-cache": "4.1.1",
     "normalize-html-whitespace": "0.2.0",
     "winston": "2.4.0",
