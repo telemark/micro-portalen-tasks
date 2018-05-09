@@ -39,7 +39,7 @@
   "homepage": "https://github.com/telemark/micro-portalen-tasks#readme",
   "devDependencies": {
     "ava": "0.25.0",
-    "coveralls": "3.0.0",
+    "coveralls": "3.0.1",
     "nsp": "3.2.1",
     "micro-dev": "2.2.2",
     "nyc": "11.7.2",
