@@ -11,7 +11,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=8.9.1"
+    "node": ">=8.11.3"
   },
   "scripts": {
     "test": "standard && nsp check && ava",
@@ -20,7 +20,8 @@
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
     "standard-fix": "standard --fix",
     "start": "micro",
-    "dev": "micro-dev -H localhost"
+    "dev": "micro-dev -H localhost",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
   "keywords": [
     "microservice",
