@@ -55,7 +55,7 @@
     "microrouter": "3.1.3",
     "node-cache": "4.2.0",
     "normalize-html-whitespace": "1.0.0",
-    "winston": "2.4.4",
+    "winston": "3.2.1",
     "winston-papertrail": "1.0.5",
     "x-ray": "2.3.3",
     "xml2js-parser": "1.1.1"
