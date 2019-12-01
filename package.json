@@ -57,7 +57,7 @@
     "normalize-html-whitespace": "1.0.0",
     "winston": "2.4.4",
     "winston-papertrail": "1.0.5",
-    "x-ray": "2.3.3",
+    "x-ray": "2.3.4",
     "xml2js-parser": "1.1.1"
   }
 }
