@@ -43,7 +43,7 @@
     "coveralls": "3.0.9",
     "micro-dev": "3.0.0",
     "nyc": "15.0.0",
-    "standard": "14.3.2",
+    "standard": "14.3.3",
     "test-listen": "1.1.0"
   },
   "dependencies": {
